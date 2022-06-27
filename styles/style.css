@@ -91,7 +91,6 @@ nav {
 
 .nav--btn:hover {
   color: var(--dark-grey);
-  border: 1px solid var(--dark-grey);
 }
 
 .primary-link {
@@ -185,5 +184,9 @@ a:hover {
   h3 {
     font-size: 32px;
     text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
