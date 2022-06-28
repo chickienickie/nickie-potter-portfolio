@@ -215,4 +215,8 @@ a:hover {
   .nav--btn {
     margin: 0 auto;
   }
+
+  footer {
+    font-size: 10px;
+  }
 }
