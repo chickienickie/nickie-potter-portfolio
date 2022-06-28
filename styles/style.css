@@ -150,6 +150,7 @@ footer {
   align-items: center;
   gap: 5em;
   color: black;
+  padding: 160px 20px;
 }
 a {
   color: var(--light-grey);
@@ -170,6 +171,59 @@ a:hover {
   right: 0;
   left: 0;
   z-index: 1030;
+}
+
+.project-link {
+  display: block;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.about-section {
+  padding: 160px 20px;
+  text-align: center;
+}
+
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+  padding: 160px 20px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+}
+
+.mb-5 {
+  margin-bottom: 3rem !important;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+
+.my-projects {
+  display: block;
+  margin-bottom: 5em;
+  gap: 4em;
+  padding: 160px 20px;
+}
+
+.work-heading {
+  padding: 160px 20px;
+  text-align: center;
 }
 
 @media (max-width: 900px) {
@@ -218,5 +272,10 @@ a:hover {
 
   footer {
     font-size: 10px;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
   }
 }
