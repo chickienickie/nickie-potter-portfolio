@@ -108,8 +108,7 @@ a:hover {
 }
 
 .project-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: block;
   margin-bottom: 5em;
   gap: 4em;
 }
@@ -136,7 +135,7 @@ a:hover {
 .project-title {
   font-size: 1.4rem;
   color: var(--dark-grey);
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .project-description {
@@ -172,21 +171,47 @@ a:hover {
   z-index: 1030;
 }
 
-.mt-5 {
-  margin-top: 3rem !important;
-}
-
-@media (max-width: 576px) {
+@media (max-width: 900px) {
   h1 {
-    font-size: 48px;
-    line-height: 1.5;
-  }
-  h3 {
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
   }
-  img {
-    max-width: 100%;
-    height: auto;
+
+  h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .project-name {
+    padding: 0;
+    text-align: center;
+  }
+
+  .portfolio-container {
+    padding-top: 24px;
+    height: unset !important;
+  }
+
+  .bio {
+    display: flex;
+    text-align: center;
+    padding: 0px;
+  }
+
+  .bio--image {
+    display: none;
+  }
+
+  .hero {
+    display: flex;
+    height: 400px;
+  }
+
+  .nav--btn {
+    margin: 0 auto;
   }
 }
