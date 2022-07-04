@@ -65,6 +65,7 @@ h1::before {
 h2 {
   font-size: 40px;
 }
+
 h3 {
   font-size: 2.2rem;
   margin-bottom: 0.785em;
@@ -76,6 +77,10 @@ h4 {
 
 p {
   font-size: 20px;
+}
+
+li {
+  list-style: none;
 }
 
 nav {
@@ -156,12 +161,11 @@ a:hover {
 }
 
 footer {
-  display: flex;
   justify-content: center;
   align-items: center;
   gap: 5em;
   color: black;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 a {
   color: var(--light-grey);
@@ -199,7 +203,7 @@ a:hover {
 }
 
 .about-section {
-  padding: 160px 20px;
+  padding: 60px 20px;
   text-align: center;
 }
 
@@ -210,7 +214,7 @@ a:hover {
 .about-section h1 {
   font-size: 64px;
   line-height: 80px;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .about-section h2 {
@@ -229,17 +233,17 @@ a:hover {
   display: block;
   margin-bottom: 5em;
   gap: 4em;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .work-heading {
-  padding: 160px 20px;
+  padding: 100px 20px;
   text-align: center;
 }
 
 .content {
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -255,8 +259,13 @@ a:hover {
   font-size: 14px;
 }
 
+.social-links {
+  gap: 20px;
+  padding: 0 20px;
+  display: flex;
+}
+
 .social-links a {
-  margin: 0 20px;
   color: var(--dark-grey);
   background: var(--light-grey);
   padding: 10px 14px;
@@ -267,6 +276,15 @@ a:hover {
 
 .social-links a:hover {
   color: white;
+}
+
+.contact {
+  font-size: 40px;
+}
+
+.open-source p {
+  font-size: 15px;
+  padding: 0;
 }
 
 @media (max-width: 900px) {
@@ -323,7 +341,6 @@ a:hover {
 
   .col-lg-6 {
     flex: 0 0 auto;
-    width: 50%;
   }
 
   .mb-4 {
