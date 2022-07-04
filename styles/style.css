@@ -62,9 +62,20 @@ h1::before {
   top: 30px;
 }
 
+h2 {
+  font-size: 40px;
+}
 h3 {
   font-size: 2.2rem;
   margin-bottom: 0.785em;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
 }
 
 nav {
@@ -244,6 +255,20 @@ a:hover {
   font-size: 14px;
 }
 
+.social-links a {
+  margin: 0 20px;
+  color: var(--dark-grey);
+  background: var(--light-grey);
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: white;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
@@ -289,11 +314,11 @@ a:hover {
   }
 
   footer {
-    font-size: 10px;
+    font-size: 18px;
   }
 
   footer h2 {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .col-lg-6 {
